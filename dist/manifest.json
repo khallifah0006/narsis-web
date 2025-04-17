@@ -40,7 +40,7 @@
         "short_name": "Add",
         "description": "Quickly add a new story",
         "url": "#/add-story",
-        "icons": [{ "src": "src/icons/add-icon.png", "sizes": "96x96", "type": "image/png" }]
+        "icons": [{ "src": "icons/add-icon.png", "sizes": "96x96", "type": "image/png" }]
       }
     ]
     
