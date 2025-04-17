@@ -45,7 +45,7 @@ const Profile = {
     
     const notificationsToggle = document.getElementById('notifications-toggle');
     if ('serviceWorker' in navigator && 'PushManager' in window) {
-      navigator.serviceWorker.register('./script/service-worker.js')
+      navigator.serviceWorker.register('/service-worker.js')
         .then(async (registration) => {
           const subscription = await registration.pushManager.getSubscription();
           
