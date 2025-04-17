@@ -50,8 +50,8 @@ self.addEventListener('notificationclick', (event) => {
 });
 
 workbox.precaching.precacheAndRoute([
-  { url: '../index.html', revision: '1' },
-  { url: '../styles.css', revision: '1' },
+  { url: 'index.html', revision: '1' },
+  { url: 'styles.css', revision: '1' },
   { url: 'AddStory.js', revision: '1' },
   { url: 'Home.js', revision: '1' },
   { url: 'Profile.js', revision: '1' },
@@ -59,13 +59,13 @@ workbox.precaching.precacheAndRoute([
   { url: 'StoryPresenter.js', revision: '1' },
   { url: 'UI.js', revision: '1' },
   { url: 'db.js', revision: '1' },
-  { url: '../../manifest.json', revision: '1' },
-  { url: '../icons/mobile.png', revision: '1' },
-  { url: '../icons/desktop.png', revision: '1' },
-  { url: '../icons/add-icon.png', revision: '1' },
-  { url: '../favicon1.ico', revision: '1' },
-  { url: '../icons/icon192x192.png', revision: '1' },
-  { url: '../icons/icon512x512.png', revision: '1' }
+  { url: 'manifest.json', revision: '1' },
+  { url: 'icons/mobile.png', revision: '1' },
+  { url: 'icons/desktop.png', revision: '1' },
+  { url: 'icons/add-icon.png', revision: '1' },
+  { url: 'favicon1.ico', revision: '1' },
+  { url: 'icons/icon192x192.png', revision: '1' },
+  { url: 'icons/icon512x512.png', revision: '1' }
 ]);
 
 workbox.routing.registerRoute(
